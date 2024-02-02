@@ -1,0 +1,185 @@
+body {
+    background-color: #A4A4EC;
+}
+.top-container{
+    position: relative;
+    padding-top: 50px;
+    display: block;
+    font-family: 'Poor Story', system-ui;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 3rem;
+    animation: blink 1s steps(4, start) infinite;
+}
+@-moz-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-o-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.code-languages {
+    width: 40%;
+}
+
+.web {
+    text-decoration: underline #F7F677;
+}
+
+.dev {
+    font-weight: bolder;
+}
+
+.middle-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: 'Poor Story', system-ui;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Poor Story', system-ui;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.radius-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.introduction-text {
+  display: block;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  margin: auto;
+  width: 30%;
+  font-size: 18px;
+  color: black;
+}
+ hr {
+  border: dotted #C7F777 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+ }
+.parent {
+  display: flex;
+  margin-top: 50px;
+}
+
+.typing {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gaming {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  margin: auto;
+  width: 30%;
+  font-size: 18px;
+  color: black;
+}
+
+.bottom-container {
+  display: block;
+  background-color: #91F777;
+  padding: 50px 0 20px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  margin: auto;
+  width: auto;
+  font-size: 1rem;
+}
+
+.btn {
+  align-items: center;
+  appearance: none;
+  background-color: #91F777;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#C7F777 0 -3px 0 inset;
+  box-sizing: border-box;
+  color:black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Poor Story', system-ui;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.btn:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.copyright {
+  font-family: 'Poor Story', system-ui;
+}
